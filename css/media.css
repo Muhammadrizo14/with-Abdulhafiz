@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .header__middle {
+        display: block;
+    }
+    .header__up {
+        display: none;
+    }
+    .input__search {
+        width: 243px;
+        height: 40px;
+        background: url(../img/search-icon.svg) no-repeat 15px 13px
+    }
+    .logo__title {
+        padding-left: 123px;
+    }
+    .wrap {
+        max-width: 720px;
+    }
+    .kitchen__list li:nth-child(6),
+    .kitchen__list li:nth-child(7) {
+        display: none;
+    }
+}

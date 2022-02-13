@@ -1,0 +1,25 @@
+.input__search {
+    width: 280px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #414141;
+    background: url('../img/search-icon.svg') no-repeat 15px 12px #F9F9F9;
+    padding-left: 50px;
+}
+
+
+.header__up__list li,
+.header__up__list li a  {
+    color: #414141;
+}
+
+.header__up__list li:first-child {
+    padding-left: 34px;
+    padding-right: 30px;
+    margin: 0;
+}
