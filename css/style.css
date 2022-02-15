@@ -1,14 +1,297 @@
 * {
-    padding: 0;
     outline: none;
     transition: all 0.5s ease;
-    margin: 0;
 }
 
-@font-face {
-    font-family: Roboto, sans-serif;
-    src: url(../font/Roboto-Regular.ttf);
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
 }
+
+.df {
+    display: flex;
+}
+
+.j-c-c {
+    justify-content: center;
+}
+
+.father-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 75px;
+}
+
+.j-c-sb {
+    justify-content: space-between;
+}
+
+.j-c-sa {
+    justify-content: space-around;
+}
+
+.j-c-se {
+    justify-content: space-evenly;
+}
+
+.a-i {
+    align-items: center;
+}
+
+.f-d-c {
+    flex-direction: row;
+}
+
+.img {
+    height: 150px;
+    width: 200px;
+}
+
+.child-div {
+    position: relative;
+}
+
+.child-div {
+    transition: 0.5s ease;
+    height: 344px;
+    width: 263px;
+    margin: 0 auto;
+}
+
+.child-div h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #414141;
+}
+
+.child-div p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #414141;
+}
+
+.child-div h5 {
+    top: -5px;
+    position: relative;
+    color: #414141;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+}
+
+.h3-3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #414141;
+}
+
+.footer-1 {
+    margin-top: 200px;
+}
+
+.footer-div2 h1 {
+    font-family: Roboto;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    color: #000000;
+    text-align: right;
+}
+
+.footer-div2 p {
+    color: #414141;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+}
+
+.footer-div1 ul li {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #414141;
+    list-style: none;
+    line-height: 25px;
+}
+
+.footer-div1 h1 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+    margin-left: 40px;
+}
+
+.footer-div22 li {
+    list-style: none;
+    margin-right: 25px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.footer-div22 li img {
+    margin-right: 15px;
+}
+
+.footer-div11 li {
+    list-style: none;
+    margin-right: 15px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.footer-div11 li:first-child {
+    color: #d74444;
+}
+
+.size input {
+    width: 63px;
+    height: 44px;
+    border: none;
+    outline: grey;
+}
+
+.size div div p {
+    color: #C4C4C4;
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.size div div input {
+    margin-right: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    color: #000;
+}
+
+.size button {
+    background: #245462;
+    color: #fff;
+    height: 40px;
+    width: 223px;
+    font-family: Roboto;
+    border: none;
+    font-weight: 400;
+}
+
+.size {
+    display: none;
+    transition: 0.5s ease;
+
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.db {
+    display: block;
+}
+
+.heart-div i {
+    cursor: pointer;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    color: #aaa;
+    transition: .2s;
+}
+
+.heart-div i:hover {
+    color: #666;
+}
+
+.heart-div i:before {
+    font-family: fontawesome;
+    content: '\f004';
+    font-style: normal;
+}
+
+.heart-div i.press {
+    animation: size .4s;
+    color: #e23b3b;
+}
+
+.heart-div i span.press {
+    bottom: 120px;
+    font-size: 14px;
+    visibility: visible;
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    0% {
+        color: transparent
+    }
+
+    50% {
+        color: #e23b3b
+    }
+
+    100% {
+        color: transparent
+    }
+}
+
+.child-div:hover {
+    box-shadow: 0px 1px 9px 0px #0000001C;
+}
+
+
+/* karochi bu etda uyagi meni qodim shundimi Abdulhafiz */
+
+
+
+
+
+
 
 @font-face {
     font-family: 'Playfair Display';
@@ -27,6 +310,7 @@ li {
 a {
     text-decoration: none;
 }
+
 body {
     font-family: Roboto, sans-serif;
 }
@@ -38,15 +322,17 @@ body {
 
 .header__up {
     padding-top: 10px;
-    background: #313131;    
+    background: #313131;
     padding-bottom: 10px;
 }
+
 .header__up__list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.header__up__list__df > img {
+
+.header__up__list__df>img {
     margin-right: 10px;
 }
 
@@ -63,8 +349,9 @@ body {
     display: flex;
     align-items: center;
 }
+
 .header__up__list li,
-.header__up__list li a  {
+.header__up__list li a {
     font-style: normal;
     margin-right: 30px;
     font-weight: normal;
@@ -198,7 +485,9 @@ body {
     text-align: left;
 }
 
-.df {display: flex;}
+.df {
+    display: flex;
+}
 
 .j-c-sb {
     justify-content: space-around;
@@ -208,7 +497,7 @@ body {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: bold;
-    font-size: 50px ;
+    font-size: 50px;
     line-height: 105.3%;
     /* or 53px */
     padding-bottom: 15px;
